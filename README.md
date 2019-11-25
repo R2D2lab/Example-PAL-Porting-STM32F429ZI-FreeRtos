@@ -2,21 +2,22 @@
 
 0. Switch to this README PATH.
 
-1, Copy from SDK: STM32Cube_FW_F4_V1.24.0\Drivers\* contents to .\Drivers folder. 
+1. Copy from SDK: STM32Cube_FW_F4_V1.24.0\Drivers\* contents to .\Drivers folder. 
 
-2, Copy from SDK: STM32Cube_FW_F4_V1.24.0\Middlewares\Third_Party\FreeRTOS\* contents to .\OS\FreeRTOS_10.0.1_ST folder.
+2. Copy from SDK: STM32Cube_FW_F4_V1.24.0\Middlewares\Third_Party\FreeRTOS\* contents to .\OS\FreeRTOS_10.0.1_ST folder.
 
-3, Copy from SDK: 
+3. Copy from SDK: 
 STM32Cube_FW_F4_V1.24.0\Middlewares\Third_Party\FatFs\* contents to .\Middleware\FatFs_R0.12C folder.
 
-4, Copy from SDK:
+4. Copy from SDK:
 STM32Cube_FW_F4_V1.24.0\Middlewares\Third_Party\LwIP\* contents to .\Middleware\LwIP_2.0.3 folder.
 
-5, Copy from SDK: 
+5. Copy from SDK: 
 STM32Cube_FW_F4_V1.24.0\Middlewares\ST\STM32_USB_Host_Library\* contents to .\Middleware\STM32_USB_Host_Library folder.
 
-6, Final Folder Tree:
+6. Final Folder Tree:
 
+```
 .
 ├── Drivers
 │   ├── BSP
@@ -115,3 +116,4 @@ STM32Cube_FW_F4_V1.24.0\Middlewares\ST\STM32_USB_Host_Library\* contents to .\Mi
 │   └── usbh_diskio_dma.h
 └── README.md
 
+```
